@@ -5,16 +5,24 @@ This is a project that showcases how to simulate and train a Petoi Bittle robot 
 
 # Requirements
 • NVIDIA Omniverse (version 2022.1 or higher)
+
 • NVIDIA Isaac Sim (version 2022.1 or higher)
+
 • NVIDIA Isaac Gym (version 2022.1 or higher)
+
 • Joint Monkey plugin for Isaac Sim
+
 • PyTorch (version 1.9 or higher)
+
 • NumPy (version 1.19 or higher)
 
 # Usage
 • Open the Petoi Bittle robot simulation scene in NVIDIA Omniverse
+
 • Use Joint Monkey plugin to create a new trajectory for the robot and record it
+
 • Use Isaac Gym to train the robot to follow the trajectory using the TD3 algorithm
+
 • Visualize the training progress using the included forked TD3 benchmarking code
 
 # Results
